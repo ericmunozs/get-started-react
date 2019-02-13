@@ -1,0 +1,40 @@
+{
+  "name": "get-started",
+  "version": "1.0.0",
+  "description": "ready to get started a project",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack --progress",
+    "server": "webpack-dev-server --inline --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericmunozs/get-started-react.git"
+  },
+  "author": "ericmunozs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericmunozs/get-started-react/issues"
+  },
+  "homepage": "https://github.com/ericmunozs/get-started-react#readme",
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier-eslint": "^8.8.2",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
