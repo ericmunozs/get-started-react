@@ -1,7 +1,7 @@
 {
-  "name": "get-started",
+  "name": "get-started-react",
   "version": "1.0.0",
-  "description": "ready to get started a project",
+  "description": "ready to get started a project with react",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --progress",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/ericmunozs/get-started-react#readme",
   "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.3.1",
     "rimraf": "^2.6.3"
   },
   "devDependencies": {
